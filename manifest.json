@@ -262,5 +262,77 @@
     "bytes": 700257,
     "sha256": "1117cbed24ac06f48fd1e9c9b09b9b194902607d6888732fa6121001391dc962",
     "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "12-older-man",
+    "title": "Older man portrait",
+    "kind": "before",
+    "source_filename": "magnific_xSlrKUGjfW.jpeg",
+    "repo_path": "images/12-older-man-before.jpeg",
+    "width": 1536,
+    "height": 2048,
+    "bytes": 764049,
+    "sha256": "55e31bd447f081d077ab2f7b3472a6213d8b81dfe9d18e4fcaad9873f144e605",
+    "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "12-older-man",
+    "title": "Older man portrait",
+    "kind": "after",
+    "source_filename": "Lisa 11.jpeg",
+    "repo_path": "images/12-older-man-after.jpeg",
+    "width": 2048,
+    "height": 1152,
+    "bytes": 439578,
+    "sha256": "b101463fa48e92b7637f190882203ac0e6dc912d9ca3b7318e6a51b235716227",
+    "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "13-formal-couple",
+    "title": "Formal couple portrait",
+    "kind": "before",
+    "source_filename": "magnific_rgs1Nc6xtc.jpeg",
+    "repo_path": "images/13-formal-couple-before.jpeg",
+    "width": 1536,
+    "height": 2048,
+    "bytes": 1641130,
+    "sha256": "8d54f94fdd6106f202239687e8a1518b58698cd3c5aab791abeb9580cbd36b36",
+    "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "13-formal-couple",
+    "title": "Formal couple portrait",
+    "kind": "after",
+    "source_filename": "Lisa 12.jpeg",
+    "repo_path": "images/13-formal-couple-after.jpeg",
+    "width": 1328,
+    "height": 1760,
+    "bytes": 290553,
+    "sha256": "dbf9a29bd9c98729fd5d5980f0b54f5aa9ae4ed8bc06f8a9d91b733c0866907c",
+    "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "14-woman-portrait-ii",
+    "title": "Woman portrait II",
+    "kind": "before",
+    "source_filename": "magnific_photo-a-black-and-white-p_ksjKlxD16B.jpeg",
+    "repo_path": "images/14-woman-portrait-ii-before.jpeg",
+    "width": 1569,
+    "height": 2048,
+    "bytes": 683867,
+    "sha256": "5050840de875a09514604a9fc1417837c52b3f6950e29c7fa3ae6c04f7042c37",
+    "byte_identical_to_uploaded_source": true
+  },
+  {
+    "slug": "14-woman-portrait-ii",
+    "title": "Woman portrait II",
+    "kind": "after",
+    "source_filename": "Lisa 13.jpeg",
+    "repo_path": "images/14-woman-portrait-ii-after.jpeg",
+    "width": 1549,
+    "height": 2048,
+    "bytes": 444525,
+    "sha256": "eac36861f92551d396b106afef66f510b086c1e3ac1fbf0bc52bc79d4af11c72",
+    "byte_identical_to_uploaded_source": true
   }
 ]
