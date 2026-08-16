@@ -17,24 +17,43 @@
     .site-header h1 { margin:0; font-family:Georgia,"Times New Roman",serif; font-weight:500; font-size:clamp(38px,7vw,88px); line-height:.95; letter-spacing:-.035em; }
     .site-header p { width:min(720px,92%); margin:18px auto 0; color:var(--muted); font-size:clamp(15px,2.1vw,20px); line-height:1.55; }
     .gallery { display:grid; gap:clamp(26px,5vw,72px); padding:0 3vw clamp(50px,8vw,110px); }
-    .comparison-card { width:min(100%, var(--native-w)); margin:0 auto; background:linear-gradient(180deg,#191919,#121212); border:1px solid var(--line); border-radius:clamp(14px,2vw,24px); overflow:hidden; box-shadow:0 24px 80px rgba(0,0,0,.45); }
+    .comparison-card {
+      width:min(92vw, var(--native-w), calc(74vh * var(--ratio-num) / var(--ratio-den)));
+      margin:0 auto;
+      background:linear-gradient(180deg,#191919,#121212);
+      border:1px solid var(--line);
+      border-radius:clamp(14px,2vw,24px);
+      overflow:hidden;
+      box-shadow:0 24px 80px rgba(0,0,0,.45);
+    }
     .card-header { display:flex; align-items:end; justify-content:space-between; gap:24px; padding:clamp(16px,2.3vw,28px); border-bottom:1px solid var(--line); }
     .kicker { margin:0 0 5px; color:#bdb5a8; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
     h2 { margin:0; font-family:Georgia,"Times New Roman",serif; font-size:clamp(23px,3vw,38px); font-weight:500; line-height:1.05; }
     .instruction { margin:0; max-width:380px; text-align:right; color:var(--muted); font-size:13px; line-height:1.35; }
     .stage { position:relative; width:100%; aspect-ratio:var(--ratio); overflow:hidden; background:#090909; touch-action:pan-y; cursor:ew-resize; outline:none; }
     .stage:focus-visible { box-shadow:inset 0 0 0 3px #fff; }
-    .photo { position:absolute; inset:0; width:100%; height:100%; display:block; object-fit:cover; object-position:center; user-select:none; -webkit-user-drag:none; }
+    .photo {
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
+      object-position:center;
+      user-select:none;
+      -webkit-user-drag:none;
+    }
     .photo-after { z-index:1; }
     .before-clip { position:absolute; inset:0 auto 0 0; width:50%; overflow:hidden; z-index:2; will-change:width; }
-    .photo-before { width:100vw; max-width:var(--native-w); height:100%; }
+    .photo-before { width:100%; height:100%; object-fit:cover; object-position:center; }
+    .photo-before.fit-contain { object-fit:contain; background:#090909; }
     .divider { position:absolute; z-index:4; top:0; bottom:0; left:50%; width:2px; background:rgba(255,255,255,.96); box-shadow:0 0 0 1px rgba(0,0,0,.38),0 0 18px rgba(0,0,0,.55); pointer-events:none; will-change:left; }
     .handle { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); min-width:72px; height:50px; padding:0 10px; border-radius:999px; display:flex; align-items:center; justify-content:center; gap:5px; background:rgba(250,248,243,.97); color:#111; border:1px solid rgba(0,0,0,.22); box-shadow:0 6px 24px rgba(0,0,0,.32); }
     .handle span { font-size:24px; line-height:1; font-weight:500; }
     .handle strong { font-size:9px; letter-spacing:.08em; }
     .compare-label { position:absolute; z-index:3; top:clamp(10px,2vw,18px); padding:7px 10px; border-radius:999px; background:rgba(10,10,10,.72); border:1px solid rgba(255,255,255,.28); color:#fff; backdrop-filter:blur(8px); font-size:10px; font-weight:850; letter-spacing:.14em; pointer-events:none; }
     .label-before { left:clamp(10px,2vw,18px); } .label-after { right:clamp(10px,2vw,18px); }
-    .range { position:absolute; z-index:5; inset:0; width:100%; height:100%; margin:0; opacity:0; cursor:ew-resize; }
+    .range { position:absolute; z-index:5; inset:0; width:100%; height:100%; margin:0; opacity:0; cursor:ew-resize; touch-action:pan-y; }
     .card-footer { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:clamp(14px,2vw,22px); border-top:1px solid var(--line); background:#121212; }
     .resolution { color:#a9a39a; font-size:12px; line-height:1.35; }
     .actions { display:flex; gap:9px; flex-wrap:wrap; justify-content:flex-end; }
@@ -43,8 +62,9 @@
     .actions .primary { background:var(--cream); color:#111; border-color:var(--cream); }
     .site-footer { width:min(94vw,1800px); margin:0 auto; padding:0 0 48px; color:#8d887f; text-align:center; font-size:12px; line-height:1.6; }
     @media (max-width:720px) {
+      .comparison-card { width:100%; max-width:none; }
       .gallery { padding-left:0; padding-right:0; gap:24px; }
-      .comparison-card { border-radius:0; border-left:0; border-right:0; }
+      .comparison-card { width:100vw !important; border-radius:0; border-left:0; border-right:0; }
       .card-header { display:block; }
       .instruction { margin-top:7px; text-align:left; }
       .card-footer { align-items:flex-start; flex-direction:column; }
@@ -64,7 +84,7 @@
 
   <main class="gallery">
     
-    <article class="comparison-card" id="01-victorian-portrait" style="--native-w:1328px; --ratio:1328 / 1760;">
+    <article class="comparison-card" id="01-victorian-portrait" style="--native-w:1328px; --ratio:1328 / 1760; --ratio-num:1328; --ratio-den:1760;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 01</p>
@@ -94,7 +114,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="02-winter-family" style="--native-w:1760px; --ratio:1760 / 1328;">
+    <article class="comparison-card" id="02-winter-family" style="--native-w:1760px; --ratio:1760 / 1328; --ratio-num:1760; --ratio-den:1328;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 02</p>
@@ -124,7 +144,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="03-indoor-family" style="--native-w:1760px; --ratio:1760 / 1328;">
+    <article class="comparison-card" id="03-indoor-family" style="--native-w:1760px; --ratio:1760 / 1328; --ratio-num:1760; --ratio-den:1328;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 03</p>
@@ -154,7 +174,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="04-bull-barn" style="--native-w:1760px; --ratio:1760 / 1328;">
+    <article class="comparison-card" id="04-bull-barn" style="--native-w:1760px; --ratio:1760 / 1328; --ratio-num:1760; --ratio-den:1328;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 04</p>
@@ -184,7 +204,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="05-large-family" style="--native-w:1760px; --ratio:1760 / 1328;">
+    <article class="comparison-card" id="05-large-family" style="--native-w:1760px; --ratio:1760 / 1328; --ratio-num:1760; --ratio-den:1328;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 05</p>
@@ -214,7 +234,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="06-boat" style="--native-w:1760px; --ratio:1760 / 1328;">
+    <article class="comparison-card" id="06-boat" style="--native-w:1760px; --ratio:1760 / 1328; --ratio-num:1760; --ratio-den:1328;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 06</p>
@@ -244,7 +264,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="07-camping" style="--native-w:1328px; --ratio:1328 / 1760;">
+    <article class="comparison-card" id="07-camping" style="--native-w:1328px; --ratio:1328 / 1760; --ratio-num:1328; --ratio-den:1760;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 07</p>
@@ -274,7 +294,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="08-woman-portrait" style="--native-w:1536px; --ratio:1536 / 1536;">
+    <article class="comparison-card" id="08-woman-portrait" style="--native-w:1536px; --ratio:1536 / 1536; --ratio-num:1536; --ratio-den:1536;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 08</p>
@@ -304,7 +324,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="09-couple-portrait" style="--native-w:1536px; --ratio:1536 / 1536;">
+    <article class="comparison-card" id="09-couple-portrait" style="--native-w:1536px; --ratio:1536 / 1536; --ratio-num:1536; --ratio-den:1536;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 09</p>
@@ -334,7 +354,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="10-fam-lundbeck" style="--native-w:1536px; --ratio:1536 / 1536;">
+    <article class="comparison-card" id="10-fam-lundbeck" style="--native-w:1536px; --ratio:1536 / 1536; --ratio-num:1536; --ratio-den:1536;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 10</p>
@@ -364,7 +384,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="11-famfalk-1921" style="--native-w:1536px; --ratio:1536 / 1536;">
+    <article class="comparison-card" id="11-famfalk-1921" style="--native-w:1536px; --ratio:1536 / 1536; --ratio-num:1536; --ratio-den:1536;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 11</p>
@@ -394,7 +414,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="12-older-man" style="--native-w:2048px; --ratio:2048 / 1152;">
+    <article class="comparison-card" id="12-older-man" style="--native-w:2048px; --ratio:2048 / 1152; --ratio-num:2048; --ratio-den:1152;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 12</p>
@@ -424,7 +444,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="13-formal-couple" style="--native-w:1328px; --ratio:1328 / 1760;">
+    <article class="comparison-card" id="13-formal-couple" style="--native-w:1328px; --ratio:1328 / 1760; --ratio-num:1328; --ratio-den:1760;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 13</p>
@@ -454,7 +474,7 @@
         </div>
       </footer>
     </article>
-    <article class="comparison-card" id="14-woman-portrait-ii" style="--native-w:1549px; --ratio:1549 / 2048;">
+    <article class="comparison-card" id="14-woman-portrait-ii" style="--native-w:1549px; --ratio:1549 / 2048; --ratio-num:1549; --ratio-den:2048;">
       <header class="card-header">
         <div>
           <p class="kicker">Photo 14</p>
@@ -491,11 +511,46 @@
   <script>
   (() => {
     const clamp = (n,min,max) => Math.max(min,Math.min(max,n));
+
+    // On phones use the full screen width. On laptops/desktops, size each card
+    // so the photograph itself fits comfortably within the viewport height,
+    // while never displaying wider than the supplied Magnific source.
+    const fitCards = () => {
+      const vw = document.documentElement.clientWidth;
+      const vh = window.innerHeight;
+      document.querySelectorAll('.comparison-card').forEach(card => {
+        if (vw <= 720) {
+          card.style.width = '100vw';
+          return;
+        }
+        const nativeW = parseFloat(card.style.getPropertyValue('--native-w')) || vw;
+        const ratioText = card.style.getPropertyValue('--ratio');
+        const parts = ratioText.split('/').map(v => parseFloat(v.trim()));
+        const ratio = (parts.length === 2 && parts[0] && parts[1]) ? parts[0] / parts[1] : 1;
+        const widthFromViewport = vw * 0.88;
+        const widthFromHeight = (vh * 0.74) * ratio;
+        card.style.width = Math.min(nativeW, widthFromViewport, widthFromHeight) + 'px';
+      });
+    };
+
+    fitCards();
+    window.addEventListener('resize', fitCards, {passive:true});
+
     document.querySelectorAll('[data-compare]').forEach(stage => {
       const clip=stage.querySelector('[data-before-clip]');
       const divider=stage.querySelector('[data-divider]');
       const range=stage.querySelector('[data-range]');
       const before=stage.querySelector('.photo-before');
+      // If the original and restored crops have meaningfully different aspect ratios,
+      // keep the whole original visible rather than cropping it to force a match.
+      const preserveOriginalFrame = () => {
+        if (!before.naturalWidth || !stage.clientWidth || !stage.clientHeight) return;
+        const originalRatio = before.naturalWidth / before.naturalHeight;
+        const stageRatio = stage.clientWidth / stage.clientHeight;
+        before.classList.toggle('fit-contain', Math.abs(Math.log(originalRatio / stageRatio)) > 0.04);
+      };
+      before.addEventListener('load', preserveOriginalFrame, {once:true});
+      preserveOriginalFrame();
       let value=50;
       const set = v => {
         value=clamp(Number(v),0,100);
@@ -507,10 +562,15 @@
       set(50);
       range.addEventListener('input', e => set(e.target.value));
       range.addEventListener('change', e => set(e.target.value));
-      stage.addEventListener('pointerdown', e => { if(e.pointerType==='mouse') fromX(e.clientX); });
+      let dragging=false, raf=0, pendingX=0;
+      const queueX = x => { pendingX=x; if(!raf) raf=requestAnimationFrame(() => { raf=0; fromX(pendingX); }); };
+      stage.addEventListener('pointerdown', e => { dragging=true; stage.setPointerCapture?.(e.pointerId); queueX(e.clientX); });
+      stage.addEventListener('pointermove', e => { if(dragging) queueX(e.clientX); });
+      stage.addEventListener('pointerup', e => { dragging=false; stage.releasePointerCapture?.(e.pointerId); });
+      stage.addEventListener('pointercancel', () => { dragging=false; });
       stage.addEventListener('keydown', e => { if(e.key==='ArrowLeft'){e.preventDefault();set(value-2)} if(e.key==='ArrowRight'){e.preventDefault();set(value+2)} });
       window.addEventListener('resize', () => set(value), {passive:true});
-      new ResizeObserver(() => set(value)).observe(stage);
+      new ResizeObserver(() => { set(value); preserveOriginalFrame(); }).observe(stage);
     });
   })();
   </script>

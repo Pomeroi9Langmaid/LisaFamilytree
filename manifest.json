@@ -1,338 +1,104 @@
-[
-  {
-    "slug": "01-victorian-portrait",
-    "title": "Victorian portrait",
-    "kind": "before",
-    "source_filename": "jpg (1).jpeg",
-    "repo_path": "images/01-victorian-portrait-before.jpeg",
-    "width": 96,
-    "height": 128,
-    "bytes": 3736,
-    "sha256": "3fd8b14c8f6b6cf227237d4722a2b420b804f19f011ce81524282f9b143772d9",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "01-victorian-portrait",
-    "title": "Victorian portrait",
-    "kind": "after",
-    "source_filename": "Lisa10.jpeg",
-    "repo_path": "images/01-victorian-portrait-after.jpeg",
-    "width": 1328,
-    "height": 1760,
-    "bytes": 324795,
-    "sha256": "fe87e710983fb7c129dc0684f53efdd7a34ea9dab4adbcaa80c3864f1b5fd875",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "02-winter-family",
-    "title": "Winter family group",
-    "kind": "before",
-    "source_filename": "Screenshot 2026-08-16 at 10.06.26.png",
-    "repo_path": "images/02-winter-family-before.png",
-    "width": 1443,
-    "height": 1011,
-    "bytes": 2564661,
-    "sha256": "14e1de69d12ed2855ce2220736dc4929d2951bda7551776e9f1d28bf1f7efdee",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "02-winter-family",
-    "title": "Winter family group",
-    "kind": "after",
-    "source_filename": "Lisa9.jpeg",
-    "repo_path": "images/02-winter-family-after.jpeg",
-    "width": 1760,
-    "height": 1328,
-    "bytes": 475025,
-    "sha256": "c698ea5a53c8e6c0ae8f69edd98add1c879dbda329b67c504e43585b45b4c4dc",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "03-indoor-family",
-    "title": "Indoor family",
-    "kind": "before",
-    "source_filename": "IMG_6910 (1).jpg",
-    "repo_path": "images/03-indoor-family-before.jpg",
-    "width": 2048,
-    "height": 1536,
-    "bytes": 699226,
-    "sha256": "f5f5daf7317a8837ba1df98dd614b22eabbcc715f8c805f5f126da39fdb3e607",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "03-indoor-family",
-    "title": "Indoor family",
-    "kind": "after",
-    "source_filename": "Lisa8.jpeg",
-    "repo_path": "images/03-indoor-family-after.jpeg",
-    "width": 1760,
-    "height": 1328,
-    "bytes": 416241,
-    "sha256": "0280ba32b6c619166eb050ba5e5c58d3012586cad7a2434e7e6c3fff20a73bd2",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "04-bull-barn",
-    "title": "Bull at the barn",
-    "kind": "before",
-    "source_filename": "Screenshot 2026-08-16 at 12.19.22.png",
-    "repo_path": "images/04-bull-barn-before.png",
-    "width": 1210,
-    "height": 794,
-    "bytes": 2139931,
-    "sha256": "b92601b8b3876b242df76f9ccf1150675475fd0109e63a3462f6b8fcf55cd2a1",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "04-bull-barn",
-    "title": "Bull at the barn",
-    "kind": "after",
-    "source_filename": "Lisa7.jpeg",
-    "repo_path": "images/04-bull-barn-after.jpeg",
-    "width": 1760,
-    "height": 1328,
-    "bytes": 402083,
-    "sha256": "7516f53c6de489444eb5f252a07b9ad5ece9b7538a55342ae61ee269e1e1a0f1",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "05-large-family",
-    "title": "Large family portrait",
-    "kind": "before",
-    "source_filename": "Screenshot 2026-08-16 at 11.50.28.png",
-    "repo_path": "images/05-large-family-before.png",
-    "width": 1401,
-    "height": 1057,
-    "bytes": 2929602,
-    "sha256": "af0088f398183d9f42de1bb0e0cfbe0c89b2e0c88efe1c6f7ee69279dc04d631",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "05-large-family",
-    "title": "Large family portrait",
-    "kind": "after",
-    "source_filename": "Lisa6.jpeg",
-    "repo_path": "images/05-large-family-after.jpeg",
-    "width": 1760,
-    "height": 1328,
-    "bytes": 364564,
-    "sha256": "65e449a62892e1e0a49fb1b43747bba9367a8977cb28147ffc6aa9b24efac167",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "06-boat",
-    "title": "Boat scene",
-    "kind": "before",
-    "source_filename": "IMG_6907.jpg",
-    "repo_path": "images/06-boat-before.jpg",
-    "width": 2047,
-    "height": 1416,
-    "bytes": 680059,
-    "sha256": "a660d058b2e5d32f01f70e70500aac4d45391e81e33fb252f0b28020ad0ba176",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "06-boat",
-    "title": "Boat scene",
-    "kind": "after",
-    "source_filename": "Lisa5(1).jpeg",
-    "repo_path": "images/06-boat-after.jpeg",
-    "width": 1760,
-    "height": 1328,
-    "bytes": 453221,
-    "sha256": "b375913170536638dec1e7e74618c79eb1bdeaaff86eefd5b2823a7889e7a783",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "07-camping",
-    "title": "Camping scene",
-    "kind": "before",
-    "source_filename": "IMG_6906.jpg",
-    "repo_path": "images/07-camping-before.jpg",
-    "width": 1395,
-    "height": 2048,
-    "bytes": 574903,
-    "sha256": "7c683b509f6f9896fe436120994c28f6da708c52b12e9c0e355f7c29f33358ad",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "07-camping",
-    "title": "Camping scene",
-    "kind": "after",
-    "source_filename": "Lisa4(1).jpeg",
-    "repo_path": "images/07-camping-after.jpeg",
-    "width": 1328,
-    "height": 1760,
-    "bytes": 563310,
-    "sha256": "d3692d44042d0a617df162bfd02c6a12bfd0bed174890fea14fa2e47e27fffc9",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "08-woman-portrait",
-    "title": "Woman portrait",
-    "kind": "before",
-    "source_filename": "Screenshot 2026-08-16 at 09.59.14.png",
-    "repo_path": "images/08-woman-portrait-before.png",
-    "width": 1000,
-    "height": 1015,
-    "bytes": 783629,
-    "sha256": "044ab565789611713042ac53f699c109d0f9d527e1e5878571f5de9e0bf8360e",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "08-woman-portrait",
-    "title": "Woman portrait",
-    "kind": "after",
-    "source_filename": "Lisa 2.jpeg",
-    "repo_path": "images/08-woman-portrait-after.jpeg",
-    "width": 1536,
-    "height": 1536,
-    "bytes": 348951,
-    "sha256": "a0fdbb1678ac6cdb2aa0e530ebc4b19cee545d4d749e87e8bacc4d0cf1caa1c1",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "09-couple-portrait",
-    "title": "Couple portrait",
-    "kind": "before",
-    "source_filename": "Screenshot 2026-08-16 at 09.53.32 Firefly Upscaler 2x scale.png",
-    "repo_path": "images/09-couple-portrait-before.png",
-    "width": 1312,
-    "height": 1266,
-    "bytes": 2473753,
-    "sha256": "dc7e5fcbf475f10919f5ea84a6f4d13cb3a49fe7843b51ed26db14b41d865a0b",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "09-couple-portrait",
-    "title": "Couple portrait",
-    "kind": "after",
-    "source_filename": "Lisa 1.jpg",
-    "repo_path": "images/09-couple-portrait-after.jpg",
-    "width": 1536,
-    "height": 1536,
-    "bytes": 290955,
-    "sha256": "b666a488965a2ab67db7d4665432e34d348e5edb3bd61b2661098091dad0a9ae",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "10-fam-lundbeck",
-    "title": "Fam Lundbeck",
-    "kind": "before",
-    "source_filename": "Fam Lundbeck.jpg",
-    "repo_path": "images/10-fam-lundbeck-before.jpg",
-    "width": 300,
-    "height": 294,
-    "bytes": 32818,
-    "sha256": "38a5ea78a4f44970e64a3b4b94dee1949a6a67d4847d8443737b301ae2fbcc90",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "10-fam-lundbeck",
-    "title": "Fam Lundbeck",
-    "kind": "after",
-    "source_filename": "Fam Lundbeck.jpeg",
-    "repo_path": "images/10-fam-lundbeck-after.jpeg",
-    "width": 1536,
-    "height": 1536,
-    "bytes": 437040,
-    "sha256": "32f4877e52e577801b2a7125d7969b7ec50b9f806258df39778a0b81db34d6cc",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "11-famfalk-1921",
-    "title": "FamFalk 1921",
-    "kind": "before",
-    "source_filename": "FamFalk 1921 (1).jpg",
-    "repo_path": "images/11-famfalk-1921-before.jpg",
-    "width": 326,
-    "height": 293,
-    "bytes": 48582,
-    "sha256": "2d1951b0b83592f5c23bb2d7ea20921d3f60a4d03dbcdbbc4ec295459fe24807",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "11-famfalk-1921",
-    "title": "FamFalk 1921",
-    "kind": "after",
-    "source_filename": "FamFalk 1921.jpg",
-    "repo_path": "images/11-famfalk-1921-after.jpg",
-    "width": 1536,
-    "height": 1536,
-    "bytes": 700257,
-    "sha256": "1117cbed24ac06f48fd1e9c9b09b9b194902607d6888732fa6121001391dc962",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "12-older-man",
-    "title": "Older man portrait",
-    "kind": "before",
-    "source_filename": "magnific_xSlrKUGjfW.jpeg",
-    "repo_path": "images/12-older-man-before.jpeg",
-    "width": 1536,
-    "height": 2048,
-    "bytes": 764049,
-    "sha256": "55e31bd447f081d077ab2f7b3472a6213d8b81dfe9d18e4fcaad9873f144e605",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "12-older-man",
-    "title": "Older man portrait",
-    "kind": "after",
-    "source_filename": "Lisa 11.jpeg",
-    "repo_path": "images/12-older-man-after.jpeg",
-    "width": 2048,
-    "height": 1152,
-    "bytes": 439578,
-    "sha256": "b101463fa48e92b7637f190882203ac0e6dc912d9ca3b7318e6a51b235716227",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "13-formal-couple",
-    "title": "Formal couple portrait",
-    "kind": "before",
-    "source_filename": "magnific_rgs1Nc6xtc.jpeg",
-    "repo_path": "images/13-formal-couple-before.jpeg",
-    "width": 1536,
-    "height": 2048,
-    "bytes": 1641130,
-    "sha256": "8d54f94fdd6106f202239687e8a1518b58698cd3c5aab791abeb9580cbd36b36",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "13-formal-couple",
-    "title": "Formal couple portrait",
-    "kind": "after",
-    "source_filename": "Lisa 12.jpeg",
-    "repo_path": "images/13-formal-couple-after.jpeg",
-    "width": 1328,
-    "height": 1760,
-    "bytes": 290553,
-    "sha256": "dbf9a29bd9c98729fd5d5980f0b54f5aa9ae4ed8bc06f8a9d91b733c0866907c",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "14-woman-portrait-ii",
-    "title": "Woman portrait II",
-    "kind": "before",
-    "source_filename": "magnific_photo-a-black-and-white-p_ksjKlxD16B.jpeg",
-    "repo_path": "images/14-woman-portrait-ii-before.jpeg",
-    "width": 1569,
-    "height": 2048,
-    "bytes": 683867,
-    "sha256": "5050840de875a09514604a9fc1417837c52b3f6950e29c7fa3ae6c04f7042c37",
-    "byte_identical_to_uploaded_source": true
-  },
-  {
-    "slug": "14-woman-portrait-ii",
-    "title": "Woman portrait II",
-    "kind": "after",
-    "source_filename": "Lisa 13.jpeg",
-    "repo_path": "images/14-woman-portrait-ii-after.jpeg",
-    "width": 1549,
-    "height": 2048,
-    "bytes": 444525,
-    "sha256": "eac36861f92551d396b106afef66f510b086c1e3ac1fbf0bc52bc79d4af11c72",
-    "byte_identical_to_uploaded_source": true
-  }
-]
+{
+  "title": "Lisa Family Photo Restorations",
+  "photo_count": 14,
+  "pairs": [
+    {
+      "id": "01-victorian-portrait",
+      "before": "images/01-victorian-portrait-before.jpeg",
+      "after": "images/01-victorian-portrait-after.jpeg",
+      "before_sha256": "3fd8b14c8f6b6cf227237d4722a2b420b804f19f011ce81524282f9b143772d9",
+      "after_sha256": "fe87e710983fb7c129dc0684f53efdd7a34ea9dab4adbcaa80c3864f1b5fd875"
+    },
+    {
+      "id": "02-winter-family",
+      "before": "images/02-winter-family-before.png",
+      "after": "images/02-winter-family-after.jpeg",
+      "before_sha256": "14e1de69d12ed2855ce2220736dc4929d2951bda7551776e9f1d28bf1f7efdee",
+      "after_sha256": "c698ea5a53c8e6c0ae8f69edd98add1c879dbda329b67c504e43585b45b4c4dc"
+    },
+    {
+      "id": "03-indoor-family",
+      "before": "images/03-indoor-family-before.jpg",
+      "after": "images/03-indoor-family-after.jpeg",
+      "before_sha256": "f5f5daf7317a8837ba1df98dd614b22eabbcc715f8c805f5f126da39fdb3e607",
+      "after_sha256": "0280ba32b6c619166eb050ba5e5c58d3012586cad7a2434e7e6c3fff20a73bd2"
+    },
+    {
+      "id": "04-bull-barn",
+      "before": "images/04-bull-barn-before.png",
+      "after": "images/04-bull-barn-after.jpeg",
+      "before_sha256": "b92601b8b3876b242df76f9ccf1150675475fd0109e63a3462f6b8fcf55cd2a1",
+      "after_sha256": "7516f53c6de489444eb5f252a07b9ad5ece9b7538a55342ae61ee269e1e1a0f1"
+    },
+    {
+      "id": "05-large-family",
+      "before": "images/05-large-family-before.png",
+      "after": "images/05-large-family-after.jpeg",
+      "before_sha256": "af0088f398183d9f42de1bb0e0cfbe0c89b2e0c88efe1c6f7ee69279dc04d631",
+      "after_sha256": "65e449a62892e1e0a49fb1b43747bba9367a8977cb28147ffc6aa9b24efac167"
+    },
+    {
+      "id": "06-boat",
+      "before": "images/06-boat-before.jpg",
+      "after": "images/06-boat-after.jpeg",
+      "before_sha256": "a660d058b2e5d32f01f70e70500aac4d45391e81e33fb252f0b28020ad0ba176",
+      "after_sha256": "b375913170536638dec1e7e74618c79eb1bdeaaff86eefd5b2823a7889e7a783"
+    },
+    {
+      "id": "07-camping",
+      "before": "images/07-camping-before.jpg",
+      "after": "images/07-camping-after.jpeg",
+      "before_sha256": "7c683b509f6f9896fe436120994c28f6da708c52b12e9c0e355f7c29f33358ad",
+      "after_sha256": "d3692d44042d0a617df162bfd02c6a12bfd0bed174890fea14fa2e47e27fffc9"
+    },
+    {
+      "id": "08-woman-portrait",
+      "before": "images/08-woman-portrait-before.png",
+      "after": "images/08-woman-portrait-after.jpeg",
+      "before_sha256": "044ab565789611713042ac53f699c109d0f9d527e1e5878571f5de9e0bf8360e",
+      "after_sha256": "a0fdbb1678ac6cdb2aa0e530ebc4b19cee545d4d749e87e8bacc4d0cf1caa1c1"
+    },
+    {
+      "id": "09-couple-portrait",
+      "before": "images/09-couple-portrait-before.png",
+      "after": "images/09-couple-portrait-after.jpg",
+      "before_sha256": "dc7e5fcbf475f10919f5ea84a6f4d13cb3a49fe7843b51ed26db14b41d865a0b",
+      "after_sha256": "b666a488965a2ab67db7d4665432e34d348e5edb3bd61b2661098091dad0a9ae"
+    },
+    {
+      "id": "10-fam-lundbeck",
+      "before": "images/10-fam-lundbeck-before.jpg",
+      "after": "images/10-fam-lundbeck-after.jpeg",
+      "before_sha256": "38a5ea78a4f44970e64a3b4b94dee1949a6a67d4847d8443737b301ae2fbcc90",
+      "after_sha256": "32f4877e52e577801b2a7125d7969b7ec50b9f806258df39778a0b81db34d6cc"
+    },
+    {
+      "id": "11-famfalk-1921",
+      "before": "images/11-famfalk-1921-before.jpg",
+      "after": "images/11-famfalk-1921-after.jpg",
+      "before_sha256": "2d1951b0b83592f5c23bb2d7ea20921d3f60a4d03dbcdbbc4ec295459fe24807",
+      "after_sha256": "1117cbed24ac06f48fd1e9c9b09b9b194902607d6888732fa6121001391dc962"
+    },
+    {
+      "id": "12-older-man",
+      "before": "images/12-older-man-before.jpeg",
+      "after": "images/12-older-man-after.jpeg",
+      "before_sha256": "55e31bd447f081d077ab2f7b3472a6213d8b81dfe9d18e4fcaad9873f144e605",
+      "after_sha256": "b101463fa48e92b7637f190882203ac0e6dc912d9ca3b7318e6a51b235716227"
+    },
+    {
+      "id": "13-formal-couple",
+      "before": "images/13-formal-couple-before.jpeg",
+      "after": "images/13-formal-couple-after.jpeg",
+      "before_sha256": "8d54f94fdd6106f202239687e8a1518b58698cd3c5aab791abeb9580cbd36b36",
+      "after_sha256": "dbf9a29bd9c98729fd5d5980f0b54f5aa9ae4ed8bc06f8a9d91b733c0866907c"
+    },
+    {
+      "id": "14-woman-portrait-ii",
+      "before": "images/14-woman-portrait-ii-before.jpeg",
+      "after": "images/14-woman-portrait-ii-after.jpeg",
+      "before_sha256": "5050840de875a09514604a9fc1417837c52b3f6950e29c7fa3ae6c04f7042c37",
+      "after_sha256": "eac36861f92551d396b106afef66f510b086c1e3ac1fbf0bc52bc79d4af11c72"
+    }
+  ]
+}
